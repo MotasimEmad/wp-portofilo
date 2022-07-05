@@ -1,0 +1,350 @@
+[29-Jun-2022 12:20:02 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 12:20:02 UTC] PHP Stack trace:
+[29-Jun-2022 12:20:02 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 12:20:02 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 12:20:02 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 12:20:02 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 12:20:02 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 12:20:02 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 12:20:02 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 12:20:02 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 12:20:02 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 12:20:02 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 12:20:02 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 12:20:02 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 12:20:02 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 12:20:02 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 12:20:02 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 12:20:02 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 12:20:02 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 12:26:24 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 12:26:24 UTC] PHP Stack trace:
+[29-Jun-2022 12:26:24 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin-ajax.php:0
+[29-Jun-2022 12:26:24 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin-ajax.php:187
+[29-Jun-2022 12:26:24 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 12:26:24 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 12:26:24 UTC] PHP   5. Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 12:26:24 UTC] PHP   6. call_user_func:{C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171
+[29-Jun-2022 12:26:24 UTC] PHP   7. Elementor\Widgets_Manager->ajax_render_widget() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171
+[29-Jun-2022 12:26:24 UTC] PHP   8. Elementor\Core\DocumentTypes\Post->render_element() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:385
+[29-Jun-2022 12:26:24 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\base\document.php:284
+[29-Jun-2022 12:26:24 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render_by_mode() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:609
+[29-Jun-2022 12:26:24 UTC] PHP  11. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:2221
+[29-Jun-2022 12:26:24 UTC] PHP  12. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:44
+[29-Jun-2022 12:26:30 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 12:26:30 UTC] PHP Stack trace:
+[29-Jun-2022 12:26:30 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin-ajax.php:0
+[29-Jun-2022 12:26:30 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin-ajax.php:187
+[29-Jun-2022 12:26:30 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 12:26:30 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 12:26:30 UTC] PHP   5. Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 12:26:30 UTC] PHP   6. call_user_func:{C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171
+[29-Jun-2022 12:26:30 UTC] PHP   7. Elementor\Widgets_Manager->ajax_render_widget() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php:171
+[29-Jun-2022 12:26:30 UTC] PHP   8. Elementor\Core\DocumentTypes\Post->render_element() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:385
+[29-Jun-2022 12:26:30 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\base\document.php:284
+[29-Jun-2022 12:26:30 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render_by_mode() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\widget-base.php:609
+[29-Jun-2022 12:26:30 UTC] PHP  11. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->render() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:2221
+[29-Jun-2022 12:26:30 UTC] PHP  12. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:44
+[29-Jun-2022 13:09:19 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 13:09:19 UTC] PHP Stack trace:
+[29-Jun-2022 13:09:19 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 13:09:19 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 13:09:19 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:09:19 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:09:19 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:09:19 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 13:09:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:09:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:09:19 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:09:19 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 13:10:06 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 13:10:06 UTC] PHP Stack trace:
+[29-Jun-2022 13:10:06 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 13:10:06 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 13:10:06 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:10:06 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:10:06 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:10:06 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 13:10:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:10:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:10:06 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:10:06 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 13:11:59 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 13:11:59 UTC] PHP Stack trace:
+[29-Jun-2022 13:11:59 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 13:11:59 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 13:11:59 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 13:11:59 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:11:59 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:11:59 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:11:59 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 13:11:59 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 13:11:59 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 13:11:59 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 13:11:59 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 13:11:59 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 13:11:59 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 13:11:59 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 13:11:59 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 13:11:59 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 13:11:59 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:08:06 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:08:06 UTC] PHP Stack trace:
+[29-Jun-2022 16:08:06 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:08:06 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:08:06 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:08:06 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:08:06 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:08:06 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:08:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:08:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:08:06 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:08:06 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:09:39 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:09:39 UTC] PHP Stack trace:
+[29-Jun-2022 16:09:39 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:09:39 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:09:39 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:09:39 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:09:39 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:09:39 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:09:39 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:09:39 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:09:39 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:09:39 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:09:39 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:09:39 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:09:39 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:09:39 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:09:39 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:09:39 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:09:39 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:11:01 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:11:01 UTC] PHP Stack trace:
+[29-Jun-2022 16:11:01 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:11:01 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:11:01 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:11:01 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:11:01 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:11:01 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:11:01 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:11:01 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:11:01 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:11:01 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:11:01 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:11:01 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:11:01 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:11:01 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:11:01 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:11:01 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:11:01 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:15:14 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:15:14 UTC] PHP Stack trace:
+[29-Jun-2022 16:15:14 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:15:14 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:15:14 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:15:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:15:14 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:15:14 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:15:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:15:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:15:14 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:15:14 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:15:52 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:15:52 UTC] PHP Stack trace:
+[29-Jun-2022 16:15:52 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:15:52 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:15:52 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:15:52 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:15:52 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:15:52 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:15:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:15:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:15:52 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:15:52 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:22:56 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:22:56 UTC] PHP Stack trace:
+[29-Jun-2022 16:22:56 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:22:56 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:22:56 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:22:56 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:22:56 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:22:56 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:22:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:22:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:22:56 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:22:56 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:27:50 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:27:50 UTC] PHP Stack trace:
+[29-Jun-2022 16:27:50 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:27:50 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:27:50 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:27:50 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:27:50 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:27:50 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:27:50 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:27:50 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:27:50 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:27:50 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:27:50 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:27:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:27:50 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:27:50 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:27:50 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:27:50 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:27:50 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:36:11 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:36:11 UTC] PHP Stack trace:
+[29-Jun-2022 16:36:11 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:36:11 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:36:11 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:36:11 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:36:11 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:36:11 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:36:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:36:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:36:11 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:36:11 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:42:20 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:42:20 UTC] PHP Stack trace:
+[29-Jun-2022 16:42:20 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:42:20 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:42:20 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:42:20 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:42:20 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:42:20 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:42:20 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:42:20 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:42:20 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:42:20 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:42:20 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:42:20 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:42:20 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:42:20 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:42:20 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:42:20 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:42:20 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:47:30 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:47:30 UTC] PHP Stack trace:
+[29-Jun-2022 16:47:30 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:47:30 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:47:30 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:47:30 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:47:30 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:47:30 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:47:30 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:47:30 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:47:30 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:47:30 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:47:30 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:47:30 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:47:30 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:47:30 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:47:30 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:47:30 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:47:30 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:50:39 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:50:39 UTC] PHP Stack trace:
+[29-Jun-2022 16:50:39 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 16:50:39 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 16:50:39 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:50:39 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:50:39 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:50:39 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 16:50:39 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:50:39 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:50:39 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:50:39 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 16:55:31 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:55:31 UTC] PHP Stack trace:
+[29-Jun-2022 16:55:31 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:55:31 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:55:31 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:55:31 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:55:31 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:55:31 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:55:31 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:55:31 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:55:31 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:55:31 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:55:31 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:55:31 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:55:31 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:55:31 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:55:31 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:55:31 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:55:31 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 16:56:30 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 16:56:30 UTC] PHP Stack trace:
+[29-Jun-2022 16:56:30 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 16:56:30 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 16:56:30 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 16:56:30 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:56:30 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:56:30 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:56:30 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 16:56:30 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 16:56:30 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 16:56:30 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 16:56:30 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 16:56:30 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 16:56:30 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 16:56:30 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 16:56:30 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 16:56:30 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 16:56:30 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 17:01:33 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 17:01:33 UTC] PHP Stack trace:
+[29-Jun-2022 17:01:33 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 17:01:33 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 17:01:33 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:01:33 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:01:33 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:01:33 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 17:01:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:01:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:01:33 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:01:33 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 17:02:25 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 17:02:25 UTC] PHP Stack trace:
+[29-Jun-2022 17:02:25 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 17:02:25 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 17:02:25 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:02:25 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:02:25 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:02:25 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 17:02:25 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:02:25 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:02:25 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:02:25 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
+[29-Jun-2022 17:02:56 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 17:02:56 UTC] PHP Stack trace:
+[29-Jun-2022 17:02:56 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:0
+[29-Jun-2022 17:02:56 UTC] PHP   2. require_once() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\post.php:12
+[29-Jun-2022 17:02:56 UTC] PHP   3. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\admin.php:419
+[29-Jun-2022 17:02:56 UTC] PHP   4. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:02:56 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:02:56 UTC] PHP   6. Elementor\Core\Editor\Editor->init() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:02:56 UTC] PHP   7. Elementor\Core\Editor\Editor->print_editor_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:158
+[29-Jun-2022 17:02:56 UTC] PHP   8. include() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:317
+[29-Jun-2022 17:02:56 UTC] PHP   9. wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php:71
+[29-Jun-2022 17:02:56 UTC] PHP  10. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\general-template.php:3058
+[29-Jun-2022 17:02:56 UTC] PHP  11. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:02:56 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:02:56 UTC] PHP  13. Elementor\Core\Editor\Editor->wp_footer() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:02:56 UTC] PHP  14. Elementor\Widgets_Manager->render_widgets_content() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\core\editor\editor.php:822
+[29-Jun-2022 17:02:56 UTC] PHP  15. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->print_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\managers\widgets.php:447
+[29-Jun-2022 17:02:56 UTC] PHP  16. Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider->content_template() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php:1953
+[29-Jun-2022 17:02:56 UTC] PHP  17. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Elementor\ElementorWidgetSmartSlider.php:62
+[29-Jun-2022 17:03:10 UTC] PHP Warning:  Use of undefined constant NONCE_SALT - assumed 'NONCE_SALT' (this will throw an Error in a future version of PHP) in C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode.php on line 248
+[29-Jun-2022 17:03:10 UTC] PHP Stack trace:
+[29-Jun-2022 17:03:10 UTC] PHP   1. {main}() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:0
+[29-Jun-2022 17:03:10 UTC] PHP   2. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-admin\customize.php:123
+[29-Jun-2022 17:03:10 UTC] PHP   3. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:03:10 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:03:10 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:03:10 UTC] PHP   6. do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-customize-widgets.php:878
+[29-Jun-2022 17:03:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\plugin.php:476
+[29-Jun-2022 17:03:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 17:03:10 UTC] PHP   9. Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg->enqueue_block_editor_assets() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 17:03:10 UTC] PHP  10. Nextend\SmartSlider3\Platform\WordPress\Shortcode\Shortcode::renderIframe() C:\Users\Motasim Emad\Local Sites\personal\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Integration\Gutenberg\Gutenberg.php:55
